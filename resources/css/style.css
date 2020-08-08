@@ -11,6 +11,7 @@ html {
 header {
 	display: flex;
 	align-items: center;
+	border-bottom: 2px solid gray;
 }
 
 header h1 {
@@ -48,10 +49,37 @@ header h1 {
 
 /* Start */
 #start {
-
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: lightgray;
+	padding: 2rem 0;
 }
 
 #start img {
 	width: 50%;
 	height: auto;
+}
+
+#start .text {
+	height: 16rem;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#start a.button {
+	background-color: aliceblue;
+	font-size: 1rem; 
+	padding: 0.5rem 5%;
+	text-align: center;
+}
+
+#start h2 {
+	font-size: 3rem;
+}
+
+#start h3{
+	font-size: 1.2rem;
 }
