@@ -2,3 +2,46 @@
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	font-size: 16px;
+}
+
+/* Header */
+header {
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+	flex: 1;
+}
+
+header nav {
+	flex: 0.5;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	margin-right: 1%;
+}
+
+nav a {
+	text-decoration-line: none;
+}
+
+nav a:link,
+nav a:visited {
+	color: black;
+}
+
+header h1 {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	padding: 0.7rem 1.3%;
+}
