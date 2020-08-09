@@ -84,3 +84,52 @@ header h1 {
 #start h3{
 	font-size: 1.2rem;
 }
+
+/* Practice */
+#practice {
+	display: flex;
+}
+
+.practice-img {
+	flex: 6;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0 2%;
+}
+
+.articles {
+	flex: 4;
+}
+
+#practice .article {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 1rem 0;
+}
+
+.practice-img img {
+	width: 100%;
+	height: auto;
+}
+
+#practice .article img {
+	width: 35%;
+	height: auto;
+	flex: 3.5;
+}
+
+#practice .article .text {
+	flex: 6.5;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 3.5%;
+}
+
+#practice .article .text h4,
+#practice .article .text p,
+#practice .article .text a {
+	margin: 0.3rem 0;
+}
