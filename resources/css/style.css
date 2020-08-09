@@ -137,4 +137,39 @@ header h1 {
 /* Learning */
 #learning {
 	background-color: lightgray;
+	padding: 0 5%;
+}
+
+#learning h2 {
+	text-align: center;
+	padding: 2rem 0;
+}
+
+#learning .courses {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#learning .course {
+	margin: 0.8%;
+	width: 31%;
+	background-color: white;
+}
+
+#learning .course img {
+	width: 100%;
+	height: auto;
+}
+
+#learning .text {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 0;
+	justify-content: space-around;
+}
+
+#learning .text h4,
+#learning .text p {
+	padding: 0.5rem 7%;
 }
