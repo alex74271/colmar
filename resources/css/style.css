@@ -133,3 +133,8 @@ header h1 {
 #practice .article .text a {
 	margin: 0.3rem 0;
 }
+
+/* Learning */
+#learning {
+	background-color: lightgray;
+}
